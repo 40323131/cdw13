@@ -4,6 +4,7 @@ import random
 import math
 import os
 # init.py 為自行建立的起始物件
+
 import init
 import users.a.g1.ag1_40323105
 import users.a.g2.ag2_40323120
@@ -15,9 +16,11 @@ import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
+#ag8
 import users.a.g8.ag8_40323123
+import users.a.g8.ag8_40323131_task1
+import users.a.g8.cdw13.a40323131
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -426,15 +429,17 @@ app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
-app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
-app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 
 
+#ag8
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+app.register_blueprint(users.a.g8.cdw13.a40323131.ag8_31)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1

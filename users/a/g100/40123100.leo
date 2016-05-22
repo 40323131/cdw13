@@ -708,7 +708,7 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     y = 0
     degree = 20
     first_degree = 20.78
-    startx = -233.06+100
+    startx = -233.06
     starty = 49.48
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
@@ -730,7 +730,7 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
+    p = -17.89
     k = 93.98
     degree = 12
     first_degree = 4.78
